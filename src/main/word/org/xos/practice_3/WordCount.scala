@@ -9,5 +9,6 @@ object WordCount {
     val get_data = sc.textFile("./data/word.txt").flatMap(x => x.split(" ")).map(x => (x, 1))
     val wordSort = get_data.reduceByKey((x, y) => x + y).sortBy(x => x._2, ascending = false, numPartitions = 4)
     wordSort.foreach(println)
+    println("分支操作")
   }
 }
