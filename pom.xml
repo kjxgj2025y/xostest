@@ -5,7 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.xos</groupId>
+<<<<<<< HEAD
     <artifactId>Spark</artifactId>
+=======
+    <artifactId>Scala</artifactId>
+>>>>>>> 3d8c09203cd192819a28fa186abc81312f366634
     <version>1.0</version>
 
     <properties>
